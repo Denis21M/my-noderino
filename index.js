@@ -1,5 +1,5 @@
 const app = require("express")()
-const desiredPath = process.env.DESIRED_PATH || "Bacon"
+const desiredPath = process.env.DESIRED_PATH || "/Bacon"
 const port = process.env.PORT || 80
 const number = process.env.NUMBER || 0
 
